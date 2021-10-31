@@ -1,8 +1,8 @@
-import HeadLine from "./HeadLine";
+import Navbar from "./Navbar";
 
 const Header = () => (
   <header>
-    <HeadLine tag="h3" text="Header" />
+    <Navbar />
   </header>
 );
 
