@@ -1,5 +1,7 @@
+import HeadLine from "../components/HeadLine";
+
 const Home = () => (
-  <h1>Hello world!</h1>
+  <HeadLine text='Hello world!'/>
 );
 
 export default Home;

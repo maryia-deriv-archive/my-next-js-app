@@ -1,5 +1,5 @@
-const Contact = () => (
-    <h1>Danny</h1>
-  );
-  
-  export default Contact;
+import HeadLine from "../../components/HeadLine";
+
+const Contact = () => <HeadLine text="Danny" />;
+
+export default Contact;

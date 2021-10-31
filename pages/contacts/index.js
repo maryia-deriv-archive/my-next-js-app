@@ -1,6 +1,8 @@
+import HeadLine from "../../components/HeadLine";
+
 const Contacts = () => (
     <>
-      <h1>Contacts:</h1>
+      <HeadLine text='Contacts:'/>
       <p>There will be a list of contacts eventually</p>
     </>
   );

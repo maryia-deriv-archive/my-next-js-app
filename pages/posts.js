@@ -1,8 +1,10 @@
+import HeadLine from "../components/HeadLine";
+
 const Posts = () => (
-    <>
-      <h1>Posts:</h1>
-      <p>There will be some posts eventually</p>
-    </>
-  );
-  
-  export default Posts;
+  <>
+    <HeadLine text="Posts:" />
+    <p>There will be some posts eventually</p>
+  </>
+);
+
+export default Posts;

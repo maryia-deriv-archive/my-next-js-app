@@ -1,8 +1,10 @@
+import HeadLine from "../components/HeadLine";
+
 const Error = () => (
-    <>
-      <h1>404</h1>
-      <h2>Something is wrong...</h2>
-    </>
-  );
-  
-  export default Error;
+  <>
+    <HeadLine text="404" />
+    <HeadLine tag="h2" text="Something is wrong..." />
+  </>
+);
+
+export default Error;
